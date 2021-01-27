@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T06:38:57.505Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.7" etag="SzxolkZU_AwgYMXVJd6S" type="github"><diagram id="WuUffMPfIrSQMQvWW6pk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-27T15:44:05.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="5BLSatTMT8jnF4HKBgms" version="14.2.7" type="github">
+  <diagram id="WuUffMPfIrSQMQvWW6pk" name="第 1 页">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZUjF3pGgTWSyCT7RWbO-1" target="xZUjF3pGgTWSyCT7RWbO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZUjF3pGgTWSyCT7RWbO-1" target="xZUjF3pGgTWSyCT7RWbO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-3" value="master" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-4" value="slave" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-6" value="slave" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-9" value="master push 或者&lt;br&gt;slave pull ，一般为slave pull&lt;br&gt;表现为最终一致性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-10" value="slave 是master 的备份&lt;br&gt;读写请求都由master负责&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-11" value="强一致性：&lt;br&gt;master收到写请求 在本地写入成功之后&lt;br&gt;再写入一定数量的slave 两步操作都成功以后&lt;br&gt;返回成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;master-slave&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-13" value="如果写slave 失败：&lt;br&gt;&lt;div&gt;&lt;span&gt;1.标记该slave 不可用，报错并继续提供服务等slave恢复后同步数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2.master 回滚并返回写失败&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZUjF3pGgTWSyCT7RWbO-14" value="&lt;h4 style=&quot;box-sizing: border-box ; font-family: &amp;#34;lato&amp;#34; , sans-serif ; line-height: 1.1 ; color: rgb(33 , 33 , 33) ; margin-top: 50px ; margin-bottom: 10px ; font-size: 24px ; clear: both ; background: rgb(245 , 245 , 245) ; padding: 10px ; border-left: 3px solid rgb(228 , 228 , 228) ; text-align: justify&quot;&gt;Master-Master&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="385" width="220" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
